@@ -9,6 +9,8 @@ body {
     background-color: #333;
     padding: 10px;
     color: #fff;
+    display: flex;
+    justify-content: space-between; /* Add this property */
   }
   
   nav ul {
@@ -31,14 +33,30 @@ body {
       gap: 5px;
     }
   }
-
+  
+  /* Move language buttons to the right */
+  .language-selection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .language-selection button {
+    margin-left: 10px;
+  }
+  
   /* Reset default browser styles */
-body, h1, h2, h3, p, ul, li {
+  body,
+  h1,
+  h2,
+  h3,
+  p,
+  ul,
+  li {
     margin: 0;
     padding: 0;
   }
   
-
   nav ul li a {
     color: #fff;
     text-decoration: none;
