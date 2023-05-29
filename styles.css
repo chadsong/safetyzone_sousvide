@@ -42,7 +42,9 @@ body {
   }
   
   .language-selection button {
-    margin-left: 25%;
+    color: #333;
+    text-decoration-color: #eee;
+    margin-left: 10px;
   }
   
   /* Reset default browser styles */
