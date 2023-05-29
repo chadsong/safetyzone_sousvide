@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <title>Your Food Delivery Service</title>
+</head>
+<body>
+  <!-- Language Selection -->
+  <div class="language-selection">
+    <button onclick="switchLanguage('en')">English</button>
+    <button onclick="switchLanguage('ko')">한국어</button>
+  </div>
 
+  <!-- Header -->
+  <header>
+    <!-- Navigation links -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="home">
+      <!-- Content for the main page -->
+      <h1 id="main-heading">Welcome to Your Food Delivery Service</h1>
+      <p id="main-description">Delicious food delivered to your doorstep!</p>
+      <a href="menu.html" class="cta-button">View Menu</a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    // Detect browser language and set as default
+    const browserLanguage = navigator.language.substr(0, 2);
+    switchLanguage(browserLanguage);
+  </script>
+</body>
+</html>
