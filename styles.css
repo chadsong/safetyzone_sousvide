@@ -65,7 +65,7 @@ body {
   
   /* Hero section styles */
   #home {
-    background-image: url('background-image.jpg');
+    /*background-image: url('background-image.jpg');*/
     background-size: cover;
     background-position: center;
     height: 400px;
